@@ -1,0 +1,51 @@
+h1 {
+    color: whitesmoke;
+}
+
+p{
+    color: black;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+.important {
+    font-weight: bold;
+    color: black;
+}
+
+#lead-paragraph {
+    color: brown;
+    font-weight: bold;
+}
+
+.freedom {
+    color: chartreuse;
+}
+
+.nature {
+    color: green;
+}
+.happiness {
+    color: hotpink
+}
+
+h2 {
+    width: 500px;
+    background-color: coral;
+}
+
+h3 {
+    width: 500px;
+    background-color: cadetblue;
+}
+
+.surfing {
+    height: 100px;
+    background: blue;
+}
+
+.important {
+    font-style: italic;
+}
