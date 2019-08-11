@@ -28,7 +28,7 @@ body {
     color: green;
 }
 .happiness {
-    color: hotpink
+    color: hotpink;
 }
 
 h2 {
@@ -42,10 +42,22 @@ h3 {
 }
 
 .surfing {
-    height: 100px;
+    font-family: 'Luckiest Guy', serif;
+    font-size: 75px;
     background: blue;
+    padding: 1rem;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: orangered;
+    margin: 1.5rem 0 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .important {
     font-style: italic;
+}
+
+.fa-water {
+    color: blue;
 }
