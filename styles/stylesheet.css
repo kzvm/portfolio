@@ -75,3 +75,25 @@ footer:hover {
 .surfing:hover {
     border-radius: 50%;
 }
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin: .8rem;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: steelblue;
+    border-radius: 15px;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset input {
+    display: inline;
+}

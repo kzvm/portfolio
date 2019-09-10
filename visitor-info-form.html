@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Visitor Information Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+</head>
+
+<body>
+  <h1>Visitor Information Form</h1>
+
+  <form method="GET">
+    <label>Your name:
+        <input type="text" name="applicantName">
+    </label>
+
+    <label>Your email:
+      <input type="email" name="applicantEmail">
+    </label>
+
+    <lable>What airport city are you flying from?
+        <input type="text" name="applicantAirport">
+    </lable>
+
+    <label>How many nights will your staying be?
+        <input type="number" name="nights">
+    </label>
+
+    <fieldset>
+        <legend>What types of waves are you interested in riding?</legend>
+
+        <label>Long Board Waves
+            <input type="checkbox" name="type" value="longBoard">
+        </label>
+
+        <label>Short Board Waves
+            <input type="checkbox" name="type" value="shortBoard">
+        </label>
+
+        <lable>
+            Reef Break
+            <input type="checkbox" name="type" value="reefBreak">
+        </lable>
+
+        <lable>
+            Beach Break
+            <input type="checkbox" name="type" value="beachBreak">
+        </lable>
+
+    </fieldset>
+
+    <input type="submit">
+  </form>
+
+</body>
+</html>
